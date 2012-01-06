@@ -1,0 +1,14 @@
+{
+	"engine_options" : 	{
+		"verse_file" : "meta/verse.maxpat",
+		"corpus_file" : "meta/corpus.maxpat",
+		"organ_file" : "meta/organ.maxpat",
+		"verse_instances" : 64,
+		"corpus_instances" : 16
+	}
+,
+	"verses" : 	{
+
+	}
+
+}
