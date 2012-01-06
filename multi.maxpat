@@ -7,7 +7,7 @@
 			"revision" : 3
 		}
 ,
-		"rect" : [ 8.0, 50.0, 1471.0, 962.0 ],
+		"rect" : [ 8.0, 50.0, 1920.0, 962.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -30,12 +30,80 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1270.0, 4.0, 41.0, 20.0 ],
+					"text" : "r qm1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 19.0, 364.0, 43.0, 20.0 ],
+					"text" : "s qm1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "dict.view",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1357.0, 52.0, 498.0, 895.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-20",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1270.0, 32.0, 71.0, 20.0 ],
+					"text" : "qmetro 500"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"hidden" : 1,
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 4,
+					"outlettype" : [ "dictionary", "", "", "" ],
+					"patching_rect" : [ 1270.0, 58.0, 59.5, 20.0 ],
+					"text" : "dict multi"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-31",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 194.0, 667.0, 107.0, 20.0 ],
+					"patching_rect" : [ 188.0, 667.0, 107.0, 20.0 ],
 					"text" : "oo.call poly_verse"
 				}
 
@@ -49,7 +117,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 194.0, 637.0, 61.0, 18.0 ],
+					"patching_rect" : [ 188.0, 637.0, 61.0, 18.0 ],
 					"text" : "voices $1"
 				}
 
@@ -147,7 +215,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1344.5, 270.0, 81.0, 20.0 ],
+					"patching_rect" : [ 593.5, 50.0, 81.0, 20.0 ],
 					"text" : "loadmess set"
 				}
 
@@ -161,7 +229,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 69.0, 390.0, 33.0, 20.0 ],
+					"patching_rect" : [ 101.0, 391.0, 33.0, 20.0 ],
 					"text" : "t s s"
 				}
 
@@ -173,10 +241,10 @@
 					"id" : "obj-64",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "path" ],
-					"patching_rect" : [ 19.0, 304.0, 41.0, 20.0 ],
-					"text" : "t path"
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "path" ],
+					"patching_rect" : [ 19.0, 301.0, 51.0, 20.0 ],
+					"text" : "t 1 path"
 				}
 
 			}
@@ -312,7 +380,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1254.5, 270.0, 68.0, 20.0 ],
+					"patching_rect" : [ 503.5, 50.0, 68.0, 20.0 ],
 					"text" : "route bang"
 				}
 
@@ -327,7 +395,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1254.5, 306.0, 171.0, 32.0 ],
+					"patching_rect" : [ 503.5, 86.0, 171.0, 32.0 ],
 					"text" : "C:/kite_hunt/sound_engine/multiverse/"
 				}
 
@@ -341,7 +409,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1254.5, 239.0, 171.0, 20.0 ],
+					"patching_rect" : [ 503.5, 19.0, 171.0, 20.0 ],
 					"text" : "oo.method public engine_path"
 				}
 
@@ -355,7 +423,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 69.0, 361.0, 59.0, 20.0 ],
+					"patching_rect" : [ 101.0, 364.0, 59.0, 20.0 ],
 					"text" : "tosymbol"
 				}
 
@@ -369,7 +437,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 19.0, 333.0, 69.0, 20.0 ],
+					"patching_rect" : [ 51.0, 332.0, 69.0, 20.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -381,11 +449,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-28",
 					"maxclass" : "newobj",
-					"numinlets" : 6,
-					"numoutlets" : 6,
-					"outlettype" : [ "", "", "", "", "", "" ],
-					"patching_rect" : [ 19.0, 517.0, 894.0, 20.0 ],
-					"text" : "route engine_options::verse_file engine_options::verse_instances engine_options::corpus_file engine_options::corpus_instances engine_options::organ_file"
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 19.0, 517.0, 359.0, 20.0 ],
+					"text" : "route engine_options::verse_file engine_options::verse_instances"
 				}
 
 			}
@@ -412,8 +480,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 457.0, 984.0, 18.0 ],
-					"text" : "import $1, get engine_options::verse_file, get engine_options::verse_instances, get engine_options::corpus_file, get engine_options::corpus_instances, get engine_options::organ_file"
+					"patching_rect" : [ 19.0, 457.0, 428.0, 18.0 ],
+					"text" : "import $1, get engine_options::verse_file, get engine_options::verse_instances"
 				}
 
 			}
@@ -489,21 +557,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 2,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-9",
-					"linecount" : 5,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 957.0, 100.0, 498.0, 75.0 ],
-					"text" : "init steps:\n\n0. Look up default constants(options) for initilization (stored in dict multi?)\n1. load up current verse model \n2. assign enough voices (64?) to the verse poly~\n"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 40.290646,
 					"id" : "obj-8",
@@ -511,8 +564,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 19.0, 754.707886, 541.0, 53.0 ],
-					"text" : "poly~ verse @oo public verse"
+					"patching_rect" : [ 19.0, 755.707886, 715.0, 53.0 ],
+					"text" : "poly~ verse_dummy @oo public verse"
 				}
 
 			}
@@ -547,64 +600,12 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-2",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1358.0, 69.0, 82.0, 20.0 ],
-					"text" : "their structure"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-6",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1264.0, 69.0, 82.0, 20.0 ],
-					"text" : "& parts within"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-5",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1175.0, 69.0, 82.0, 20.0 ],
-					"text" : "it's body"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-3",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1055.0, 69.0, 94.0, 20.0 ],
-					"text" : "sound's habitat "
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
 					"fontsize" : 34.248028,
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 957.0, 13.0, 498.0, 46.0 ],
+					"patching_rect" : [ 1357.0, 6.0, 498.0, 46.0 ],
 					"text" : "(multi)verse.corpus.organ.struct"
 				}
 
@@ -685,6 +686,25 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"midpoints" : [ 1279.5, 90.0, 1344.0, 90.0, 1344.0, 48.0, 1366.5, 48.0 ],
+					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -734,6 +754,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-28", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 1,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -798,7 +827,7 @@
 					"destination" : [ "obj-43", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1264.0, 348.0, 1239.0, 348.0, 1239.0, 229.0, 1264.0, 229.0 ],
+					"midpoints" : [ 513.0, 128.0, 488.0, 128.0, 488.0, 9.0, 513.0, 9.0 ],
 					"source" : [ "obj-44", 0 ]
 				}
 
@@ -817,7 +846,7 @@
 					"destination" : [ "obj-44", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 1264.0, 306.0, 1264.0, 306.0 ],
+					"midpoints" : [ 513.0, 86.0, 513.0, 86.0 ],
 					"source" : [ "obj-47", 0 ]
 				}
 
@@ -878,10 +907,19 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-64", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-64", 1 ]
 				}
 
 			}
@@ -915,6 +953,13 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "verse.maxpat",
+				"bootpath" : "\\kite_hunt\\sound_engine\\multiverse\\meta",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "corpus_dummy.maxpat",
 				"bootpath" : "\\kite_hunt\\sound_engine\\multiverse\\meta",
 				"patcherrelativepath" : "",
 				"type" : "JSON",
