@@ -7,7 +7,7 @@
 			"revision" : 3
 		}
 ,
-		"rect" : [ 8.0, 50.0, 1471.0, 962.0 ],
+		"rect" : [ 65.0, 66.0, 1471.0, 962.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -27,6 +27,34 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 70.0, 83.0, 203.0, 18.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.705882, 0.847059, 0.062745, 1.0 ],
+					"fontname" : "Arial",
+					"fontsize" : 18.600817,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 70.0, 22.0, 247.0, 28.0 ],
+					"text" : "oo.method public init_corpus"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -54,8 +82,21 @@
 
 			}
  ],
-		"lines" : [  ],
-		"dependency_cache" : [  ]
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "oo.method.mxe",
+				"type" : "iLaF"
+			}
+ ]
 	}
 
 }

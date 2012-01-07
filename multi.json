@@ -8,14 +8,14 @@
 	}
 ,
 	"verses" : 	{
-		"busymap" : [ 0, 0, 0, 0 ],
+		"busymap" : 0,
 		"verse_1" : 		{
 			"corpuses" : 			{
 
 			}
 ,
 			"state" : 			{
-				"mute" : 1,
+				"mute" : 0,
 				"busy" : 0
 			}
 
