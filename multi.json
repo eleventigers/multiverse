@@ -1,61 +1,15 @@
 {
 	"engine_options" : 	{
 		"verse_file" : "meta/verse.maxpat",
-		"corpus_file" : "meta/corpus.maxpat",
 		"organ_file" : "meta/organ.maxpat",
-		"verse_instances" : 4,
-		"corpus_instances" : 16
+		"verse_instances" : 4
 	}
 ,
-	"verses" : 	{
-		"busymap" : 0,
-		"verse_1" : 		{
-			"corpuses" : 			{
+	"verses_global" : 	{
 
-			}
+	}
 ,
-			"state" : 			{
-				"mute" : 0,
-				"busy" : 0
-			}
-
-		}
-,
-		"verse_2" : 		{
-			"corpuses" : 			{
-
-			}
-,
-			"state" : 			{
-				"mute" : 0,
-				"busy" : 0
-			}
-
-		}
-,
-		"verse_3" : 		{
-			"corpuses" : 			{
-
-			}
-,
-			"state" : 			{
-				"mute" : 0,
-				"busy" : 0
-			}
-
-		}
-,
-		"verse_4" : 		{
-			"corpuses" : 			{
-
-			}
-,
-			"state" : 			{
-				"mute" : 0,
-				"busy" : 0
-			}
-
-		}
+	"verses_local" : 	{
 
 	}
 
