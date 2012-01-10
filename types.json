@@ -1,0 +1,18 @@
+{
+	"stone" : 	{
+		"container" : "meta/organ.maxpat",
+		"structs" : 		{
+
+		}
+
+	}
+,
+	"pine_tree" : 	{
+		"container" : "meta/organ.maxpat",
+		"structs" : 		{
+
+		}
+
+	}
+
+}
