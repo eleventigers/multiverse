@@ -7,7 +7,7 @@
 			"revision" : 3
 		}
 ,
-		"rect" : [ 0.0, 42.0, 1920.0, 962.0 ],
+		"rect" : [ 8.0, 50.0, 1920.0, 962.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 							"revision" : 3
 						}
 ,
-						"rect" : [ 332.0, 139.0, 701.0, 751.0 ],
+						"rect" : [ -31992.0, -31950.0, 701.0, 751.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -62,6 +62,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -630,6 +631,7 @@
 ,
 					"patching_rect" : [ 219.0, 198.0, 156.0, 37.0 ],
 					"saved_object_attributes" : 					{
+						"description" : "",
 						"fontname" : "Arial",
 						"tags" : "",
 						"fontface" : 0,
@@ -638,8 +640,7 @@
 						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p pull_verse"
@@ -656,7 +657,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 19.0, 651.0, 319.0, 18.0 ],
-					"text" : "push_verse id id58 type stone pos 3.5 0. 5. args generic 1"
+					"text" : "push_verse id id57 type stone pos 3.5 0. 5. args generic 1"
 				}
 
 			}
@@ -683,7 +684,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 19.0, 677.0, 104.0, 18.0 ],
-					"text" : "pull_verse id id58"
+					"text" : "pull_verse id id57"
 				}
 
 			}
@@ -1017,6 +1018,7 @@
 ,
 													"patching_rect" : [ 60.0, 75.0, 40.0, 20.0 ],
 													"saved_object_attributes" : 													{
+														"description" : "",
 														"fontname" : "Arial",
 														"tags" : "",
 														"fontface" : 0,
@@ -1025,8 +1027,7 @@
 														"globalpatchername" : "",
 														"digest" : "",
 														"default_fontname" : "Arial",
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p mxf"
@@ -1656,6 +1657,7 @@
 ,
 													"patching_rect" : [ 60.0, 150.0, 91.0, 20.0 ],
 													"saved_object_attributes" : 													{
+														"description" : "",
 														"fontname" : "Arial",
 														"tags" : "",
 														"fontface" : 0,
@@ -1664,8 +1666,7 @@
 														"globalpatchername" : "",
 														"digest" : "",
 														"default_fontname" : "Arial",
-														"default_fontsize" : 12.0,
-														"description" : ""
+														"default_fontsize" : 12.0
 													}
 ,
 													"text" : "p unix format"
@@ -1796,6 +1797,7 @@
 ,
 									"patching_rect" : [ 100.0, 292.0, 114.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"description" : "",
 										"fontname" : "Arial",
 										"tags" : "",
 										"fontface" : 0,
@@ -1804,8 +1806,7 @@
 										"globalpatchername" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p path and platform"
@@ -2026,6 +2027,7 @@
 ,
 									"patching_rect" : [ 50.0, 242.0, 73.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"description" : "",
 										"fontname" : "Arial",
 										"tags" : "",
 										"fontface" : 0,
@@ -2034,8 +2036,7 @@
 										"globalpatchername" : "",
 										"digest" : "",
 										"default_fontname" : "Arial",
-										"default_fontsize" : 12.0,
-										"description" : ""
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p is runtime"
@@ -2176,6 +2177,7 @@
 ,
 					"patching_rect" : [ 675.0, 137.0, 149.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"description" : "",
 						"fontname" : "Arial",
 						"tags" : "",
 						"fontface" : 0,
@@ -2184,8 +2186,7 @@
 						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p app_root_path&platform"
@@ -2308,7 +2309,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 275.5, 273.0, 357.0, 34.0 ],
+									"patching_rect" : [ 275.5, 273.0, 359.0, 34.0 ],
 									"text" : "need to check whether verse is already loaded into local or global to avoid duplicates"
 								}
 
@@ -2717,6 +2718,7 @@
 ,
 					"patching_rect" : [ 19.0, 198.0, 172.0, 37.0 ],
 					"saved_object_attributes" : 					{
+						"description" : "",
 						"fontname" : "Arial",
 						"tags" : "",
 						"fontface" : 0,
@@ -2725,8 +2727,7 @@
 						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p push_verse"
@@ -2917,6 +2918,7 @@
 ,
 					"patching_rect" : [ 219.0, 137.0, 163.0, 38.0 ],
 					"saved_object_attributes" : 					{
+						"description" : "",
 						"fontname" : "Arial",
 						"tags" : "",
 						"fontface" : 0,
@@ -2925,8 +2927,7 @@
 						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p save_multi"
@@ -3434,6 +3435,7 @@
 ,
 					"patching_rect" : [ 19.0, 137.0, 180.0, 38.0 ],
 					"saved_object_attributes" : 					{
+						"description" : "",
 						"fontname" : "Arial",
 						"tags" : "",
 						"fontface" : 0,
@@ -3442,8 +3444,7 @@
 						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
-						"description" : ""
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p load_engine"
