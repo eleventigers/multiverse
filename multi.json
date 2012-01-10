@@ -5,11 +5,34 @@
 		"verse_instances" : 4
 	}
 ,
-	"verses_global" : 	{
+	"verses_local" : 	{
 
 	}
 ,
-	"verses_local" : 	{
+	"verses_global" : 	{
+		"id134" : 		{
+			"verse_type" : "stone",
+			"verse_pos" : [ 3.5, 0.0, 5.0 ],
+			"verse_args" : [ "generic", 1 ]
+		}
+,
+		"id169" : 		{
+			"verse_type" : "stone",
+			"verse_pos" : [ 3.5, 0.0, 5.0 ],
+			"verse_args" : [ "generic", 1 ]
+		}
+,
+		"id321" : 		{
+			"verse_type" : "stone",
+			"verse_pos" : [ 3.5, 0.0, 5.0 ],
+			"verse_args" : [ "generic", 1 ]
+		}
+,
+		"id72" : 		{
+			"verse_type" : "stone",
+			"verse_pos" : [ 3.5, 0.0, 5.0 ],
+			"verse_args" : [ "generic", 1 ]
+		}
 
 	}
 
