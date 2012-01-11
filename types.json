@@ -10,6 +10,44 @@
 	"pine_tree" : 	{
 		"container" : "meta/organ.maxpat",
 		"structs" : 		{
+			"trunk" : 			{
+
+			}
+,
+			"branches" : 			{
+
+			}
+,
+			"roots" : 			{
+
+			}
+,
+			"cones" : 			{
+
+			}
+
+		}
+
+	}
+,
+	"player" : 	{
+		"container" : "meta/organ.maxpat",
+		"structs" : 		{
+			"head" : 			{
+
+			}
+,
+			"torso" : 			{
+
+			}
+,
+			"arms" : 			{
+
+			}
+,
+			"legs" : 			{
+
+			}
 
 		}
 

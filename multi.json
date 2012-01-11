@@ -2,7 +2,7 @@
 	"engine_options" : 	{
 		"verse_file" : "meta/verse.maxpat",
 		"organ_file" : "meta/organ.maxpat",
-		"verse_instances" : 8,
+		"verse_instances" : 32,
 		"local_radius" : 50.0
 	}
 ,
