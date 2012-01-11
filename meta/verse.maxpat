@@ -31,6 +31,21 @@
 					"color" : [ 1.0, 0.309804, 0.152941, 0.709804 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 44.5, 1421.359375, 104.0, 20.0 ],
+					"text" : "oo.call verse_pos"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 1.0, 0.309804, 0.152941, 0.709804 ],
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
 					"id" : "obj-144",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -235,7 +250,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 325.0, 1372.0, 260.0, 18.0 ],
+					"patching_rect" : [ 340.5, 1363.640625, 260.0, 18.0 ],
 					"text" : "parallel 1, threadcount $1, target 0, load_organ"
 				}
 
@@ -249,7 +264,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 230.5, 1320.0, 32.5, 20.0 ],
+					"patching_rect" : [ 246.0, 1311.640625, 32.5, 20.0 ],
 					"text" : "t i i"
 				}
 
@@ -263,7 +278,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 325.0, 1346.0, 31.0, 20.0 ],
+					"patching_rect" : [ 340.5, 1337.640625, 31.0, 20.0 ],
 					"text" : "sqrt"
 				}
 
@@ -277,7 +292,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 64.5, 1364.0, 97.0, 18.0 ],
+					"patching_rect" : [ 80.0, 1355.640625, 97.0, 18.0 ],
 					"text" : "patchername $1"
 				}
 
@@ -291,7 +306,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 64.5, 1336.359375, 125.0, 20.0 ],
+					"patching_rect" : [ 80.0, 1328.0, 125.0, 20.0 ],
 					"text" : "tosymbol @separator"
 				}
 
@@ -305,7 +320,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 64.5, 1286.0, 55.0, 20.0 ],
+					"patching_rect" : [ 80.0, 1277.640625, 55.0, 20.0 ],
 					"text" : "pack s s"
 				}
 
@@ -319,7 +334,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 64.5, 1227.359375, 33.0, 20.0 ],
+					"patching_rect" : [ 80.0, 1219.0, 33.0, 20.0 ],
 					"text" : "t b s"
 				}
 
@@ -333,7 +348,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 64.5, 1258.359375, 97.0, 20.0 ],
+					"patching_rect" : [ 80.0, 1250.0, 97.0, 20.0 ],
 					"text" : "v app_root_path"
 				}
 
@@ -348,7 +363,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 64.5, 1401.359375, 108.0, 20.0 ],
+					"patching_rect" : [ 80.0, 1393.0, 108.0, 20.0 ],
 					"text" : "oo.call poly_organ"
 				}
 
@@ -362,7 +377,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 64.5, 1313.0, 41.0, 18.0 ],
+					"patching_rect" : [ 80.0, 1304.640625, 41.0, 18.0 ],
 					"text" : "$1 $2"
 				}
 
@@ -376,7 +391,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 64.5, 1194.0, 129.0, 20.0 ],
+					"patching_rect" : [ 80.0, 1185.640625, 129.0, 20.0 ],
 					"text" : "route container structs"
 				}
 
@@ -390,7 +405,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 230.5, 1293.359375, 39.0, 20.0 ],
+					"patching_rect" : [ 246.0, 1285.0, 39.0, 20.0 ],
 					"text" : "zl len"
 				}
 
@@ -404,7 +419,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 230.5, 1372.0, 61.0, 18.0 ],
+					"patching_rect" : [ 246.0, 1363.640625, 61.0, 18.0 ],
 					"text" : "voices $1"
 				}
 
@@ -418,7 +433,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 203.5, 1241.359375, 105.0, 18.0 ],
+					"patching_rect" : [ 219.0, 1233.0, 105.0, 18.0 ],
 					"text" : "name $2, getkeys"
 				}
 
@@ -432,7 +447,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 203.5, 1265.359375, 59.5, 20.0 ],
+					"patching_rect" : [ 219.0, 1257.0, 59.5, 20.0 ],
 					"text" : "dict"
 				}
 
@@ -446,7 +461,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 51.0, 1133.0, 195.0, 18.0 ],
+					"patching_rect" : [ 66.5, 1124.640625, 195.0, 18.0 ],
 					"text" : "name $3, get container, get structs"
 				}
 
@@ -460,7 +475,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 51.0, 1163.359375, 59.5, 20.0 ],
+					"patching_rect" : [ 66.5, 1155.0, 59.5, 20.0 ],
 					"text" : "dict"
 				}
 
@@ -474,7 +489,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 51.0, 1071.859375, 44.0, 18.0 ],
+					"patching_rect" : [ 66.5, 1063.5, 44.0, 18.0 ],
 					"text" : "get $1"
 				}
 
@@ -489,7 +504,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 51.0, 1104.479248, 103.0, 20.0 ],
+					"patching_rect" : [ 66.5, 1096.119873, 103.0, 20.0 ],
 					"text" : "oo.call dict_types"
 				}
 
@@ -503,7 +518,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 51.0, 1002.479248, 32.5, 20.0 ],
+					"patching_rect" : [ 66.5, 994.119873, 32.5, 20.0 ],
 					"text" : "t l l"
 				}
 
@@ -650,7 +665,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 64.5, 973.479248, 221.0, 20.0 ],
+					"patching_rect" : [ 80.0, 965.119873, 221.0, 20.0 ],
 					"text" : "route verse_type verse_pos verse_args"
 				}
 
@@ -665,7 +680,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 64.5, 939.859436, 103.0, 20.0 ],
+					"patching_rect" : [ 80.0, 931.500061, 103.0, 20.0 ],
 					"text" : "oo.call dict_verse"
 				}
 
@@ -679,7 +694,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 64.5, 907.859436, 257.0, 18.0 ],
+					"patching_rect" : [ 80.0, 899.500061, 257.0, 18.0 ],
 					"text" : "get verse_type, get verse_pos, get verse_args"
 				}
 
@@ -720,10 +735,10 @@
 					"id" : "obj-136",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 64.5, 792.239624, 46.0, 20.0 ],
-					"text" : "t b b l"
+					"numoutlets" : 4,
+					"outlettype" : [ "bang", "bang", "bang", "" ],
+					"patching_rect" : [ 64.5, 792.239624, 59.5, 20.0 ],
+					"text" : "t b b b l"
 				}
 
 			}
@@ -1297,7 +1312,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 172.5, 1022.479248, 104.0, 20.0 ],
+					"patching_rect" : [ 188.0, 1027.119873, 104.0, 20.0 ],
 					"text" : "oo.call verse_pos"
 				}
 
@@ -1428,7 +1443,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 64.5, 1035.479248, 107.0, 20.0 ],
+					"patching_rect" : [ 80.0, 1027.119873, 107.0, 20.0 ],
 					"text" : "oo.call verse_type"
 				}
 
@@ -1458,7 +1473,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 286.5, 1022.479248, 108.0, 20.0 ],
+					"patching_rect" : [ 302.0, 1027.119873, 108.0, 20.0 ],
 					"text" : "oo.call verse_args"
 				}
 
@@ -2059,6 +2074,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 21.0, 1446.880127, 37.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -2073,6 +2092,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 9.0, 16.0, 30.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -2451,7 +2474,7 @@
 					"destination" : [ "obj-121", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-136", 0 ]
+					"source" : [ "obj-136", 1 ]
 				}
 
 			}
@@ -2460,7 +2483,17 @@
 					"destination" : [ "obj-127", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-136", 2 ]
+					"source" : [ "obj-136", 3 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 74.0, 832.299561, 54.0, 832.299561 ],
+					"source" : [ "obj-136", 0 ]
 				}
 
 			}
@@ -2469,8 +2502,8 @@
 					"destination" : [ "obj-56", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 87.5, 830.739624, 541.0, 830.739624 ],
-					"source" : [ "obj-136", 1 ]
+					"midpoints" : [ 101.0, 830.739624, 541.0, 830.739624 ],
+					"source" : [ "obj-136", 2 ]
 				}
 
 			}
@@ -3285,7 +3318,7 @@
 					"destination" : [ "obj-69", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 253.5, 1342.5, 334.5, 1342.5 ],
+					"midpoints" : [ 269.0, 1334.140625, 350.0, 1334.140625 ],
 					"source" : [ "obj-70", 1 ]
 				}
 
@@ -3613,11 +3646,26 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "struct_dummy.maxpat",
+				"bootpath" : "\\kite_hunt\\sound_engine\\multiverse\\meta",
+				"patcherrelativepath" : "",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "oo.method.mxe",
 				"type" : "iLaF"
 			}
 , 			{
 				"name" : "oo.call.mxe",
+				"type" : "iLaF"
+			}
+, 			{
+				"name" : "cosm.mxe",
+				"type" : "iLaF"
+			}
+, 			{
+				"name" : "cosm.ambi.encode~.mxe",
 				"type" : "iLaF"
 			}
 , 			{
