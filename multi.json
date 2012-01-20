@@ -3,7 +3,7 @@
 		"verse_file" : "meta/verse.maxpat",
 		"organ_file" : "meta/organ.maxpat",
 		"verse_instances" : 32,
-		"local_radius" : 50.0
+		"local_radius" : 80.0
 	}
 ,
 	"verses_local" : 	{

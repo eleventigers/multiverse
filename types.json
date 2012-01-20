@@ -11,25 +11,25 @@
 		"container" : "meta/organ.maxpat",
 		"structs" : 		{
 			"trunk" : 			{
-				"struct_file" : "meta/structs/pine_tree/trunk.maxpat",
+				"struct_file" : "meta/struct.maxpat",
 				"enable" : 1,
 				"init_amp" : 1
 			}
 ,
 			"branches" : 			{
-				"struct_file" : "meta/structs/pine_tree/branches.maxpat",
+				"struct_file" : "meta/struct.maxpat",
 				"enable" : 0,
 				"init_amp" : 1
 			}
 ,
 			"roots" : 			{
-				"struct_file" : "meta/structs/pine_tree/roots.maxpat",
+				"struct_file" : "meta/struct.maxpat",
 				"enable" : 0,
 				"init_amp" : 1
 			}
 ,
 			"cones" : 			{
-				"struct_file" : "meta/structs/pine_tree/cones.maxpat",
+				"struct_file" : "meta/struct.maxpat",
 				"enable" : 0,
 				"init_amp" : 1
 			}
@@ -42,30 +42,73 @@
 		"container" : "meta/organ.maxpat",
 		"structs" : 		{
 			"head" : 			{
-				"struct_file" : "meta/structs/player/head.maxpat",
+				"impact" : 				{
+					"pine_tree" : 					{
+						"trunk" : 						{
+							"element_1" : 							{
+								"type" : "wave",
+								"file" : "meta/structs/player/data/perc_mug3.3.wav",
+								"scale" : 0.5
+							}
+,
+							"element_2" : 							{
+								"type" : "wave",
+								"file" : "meta/structs/player/data/perc_pot3.wav",
+								"scale" : 0.5
+							}
+,
+							"element_3" : 							{
+								"type" : "wave",
+								"file" : "meta/structs/player/data/perc_waterpress_low1.3.wav",
+								"scale" : 0.7
+							}
+
+						}
+,
+						"roots" : 						{
+
+						}
+,
+						"branches" : 						{
+
+						}
+,
+						"cones" : 						{
+
+						}
+
+					}
+
+				}
+,
+				"resonance" : 				{
+
+				}
+,
+				"struct_file" : "meta/struct.maxpat",
 				"enable" : 1,
-				"init_amp" : 0,
+				"init_amp" : 1,
 				"pan_offset" : [ 0.0, 0.0, 0.0 ]
 			}
 ,
 			"torso" : 			{
-				"struct_file" : "meta/structs/player/torso.maxpat",
+				"struct_file" : "meta/struct.maxpat",
 				"enable" : 0,
-				"init_amp" : 0,
+				"init_amp" : 1,
 				"pan_offset" : [ -2.0, -1.0, 0.5 ]
 			}
 ,
 			"arms" : 			{
-				"struct_file" : "meta/structs/player/arms.maxpat",
+				"struct_file" : "meta/struct.maxpat",
 				"enable" : 0,
-				"init_amp" : 0,
+				"init_amp" : 1,
 				"pan_offset" : [ 0.0, -0.5, 0.0 ]
 			}
 ,
 			"legs" : 			{
-				"struct_file" : "meta/structs/player/legs.maxpat",
+				"struct_file" : "meta/struct.maxpat",
 				"enable" : 0,
-				"init_amp" : 0,
+				"init_amp" : 1,
 				"pan_offset" : [ 0.0, -1.5, 0.2 ]
 			}
 
