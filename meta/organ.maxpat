@@ -989,16 +989,16 @@
 ,
 					"patching_rect" : [ 270.374969, 225.5, 379.093842, 20.0 ],
 					"saved_object_attributes" : 					{
+						"fontname" : "Arial",
 						"fontface" : 0,
 						"default_fontface" : 0,
 						"fontsize" : 12.0,
 						"globalpatchername" : "",
 						"digest" : "",
 						"default_fontname" : "Arial",
-						"tags" : "",
 						"default_fontsize" : 12.0,
 						"description" : "",
-						"fontname" : "Arial"
+						"tags" : ""
 					}
 ,
 					"text" : "p toAmbiDecoder"
@@ -1783,8 +1783,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1276.25, 1078.378052, 216.0, 20.0 ],
-					"text" : "jit.phys.body @enable 0 @shape cube"
+					"patching_rect" : [ 1276.25, 1078.378052, 349.0, 20.0 ],
+					"text" : "jit.phys.body @enable 0 @shape cube @worldname multiverse"
 				}
 
 			}
@@ -3616,6 +3616,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 37.500031, 1367.0, 37.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -3630,6 +3634,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 22.0, 30.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
