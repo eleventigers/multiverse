@@ -694,8 +694,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.5, 1441.640625, 260.0, 18.0 ],
-					"text" : "parallel 1, threadcount $1, target 0, load_organ"
+					"patching_rect" : [ 340.5, 1441.640625, 146.0, 18.0 ],
+					"text" : "parallel 1, threadcount $1"
 				}
 
 			}
@@ -2504,7 +2504,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 67.5, 44.0, 531.0, 48.0 ],
+					"patching_rect" : [ 67.5, 44.0, 533.0, 48.0 ],
 					"text" : "poly~ organ_dummy @oo organ"
 				}
 
@@ -2518,6 +2518,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 21.0, 1524.880127, 37.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "out 1"
 				}
 
@@ -2532,6 +2536,10 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 9.0, 16.0, 30.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"attr_comment" : ""
+					}
+,
 					"text" : "in 1"
 				}
 
@@ -4371,37 +4379,9 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "head.maxpat",
-				"bootpath" : "\\kite_hunt\\sound_engine\\multiverse\\meta\\structs\\player",
-				"patcherrelativepath" : "..\\meta\\structs\\player",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sfplay.maxpat",
-				"bootpath" : "\\kite_hunt\\sound_engine\\multiverse\\meta\\structs\\gen",
-				"patcherrelativepath" : "..\\meta\\structs\\gen",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "torso.maxpat",
-				"bootpath" : "\\kite_hunt\\sound_engine\\multiverse\\meta\\structs\\player",
-				"patcherrelativepath" : "..\\meta\\structs\\player",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "arms.maxpat",
-				"bootpath" : "\\kite_hunt\\sound_engine\\multiverse\\meta\\structs\\player",
-				"patcherrelativepath" : "..\\meta\\structs\\player",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "legs.maxpat",
-				"bootpath" : "\\kite_hunt\\sound_engine\\multiverse\\meta\\structs\\player",
-				"patcherrelativepath" : "..\\meta\\structs\\player",
+				"name" : "struct.maxpat",
+				"bootpath" : "\\kite_hunt\\sound_engine\\multiverse\\meta",
+				"patcherrelativepath" : "",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -4422,7 +4402,7 @@
 				"type" : "iLaF"
 			}
 , 			{
-				"name" : "cosm.ambi.encode~.mxe",
+				"name" : "ambiencode~.mxe",
 				"type" : "iLaF"
 			}
 , 			{
